@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    padding: 18px 0;
+    justify-content: space-between;
+    align-items: center;
+    & div {
+        display: flex;
+        align-items: center;
+    }
+    &__logo {
+        cursor: pointer;
+        font-family: "Work Sans";
+        font-weight: 900;
+        font-size: 80.7843px;
+        line-height: 95px;
+        margin-right: 15px;
+
+        background: linear-gradient(90deg, #2a2d3e 0%, #ffc633 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    &__desk {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+
+        text-transform: uppercase;
+        border-left: 1px solid $primary;
+        padding-left: 10px;
+    }
+    &__phone {
+        & img {
+            width: 30px;
+            height: 30px;
+            margin-right: 20px;
+        }
+        & span {
+            font-family: "Montserrat";
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            margin-right: 37px;
+            & a {
+                text-decoration: none;
+                color: $primary;
+                transition: all 0.2 ease;
+                :hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    &__submit {
+        background-color: #ffc633;
+        border-radius: 30px;
+        border: none;
+        padding: 15px 26px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: black;
+        transition: background-color 0.5 ease-in-out;
+        &:hover {
+            background-color: #b68e28;
+        }
+    }
+}

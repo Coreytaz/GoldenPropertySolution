@@ -1,0 +1,29 @@
+.footer {
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        gap: 40px 0;
+        & img {
+            display: block;
+            margin: 0 auto;
+            width: 206px;
+            height: 80px;
+        }
+    }
+    &__copyright {
+        padding: 10px;
+        background-color: #e6e5ea;
+        & p {
+            font-family: "Century Gothic";
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            & span {
+                color: #F8B500;
+                cursor: pointer;
+            }
+        }
+    }
+}

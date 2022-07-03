@@ -1,0 +1,63 @@
+.contact {
+    background-image: url("../images/contact__bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    &-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+        padding-bottom: 90px;
+        & form {
+            display: flex;
+            margin-top: 60px;
+            gap: 0 20px;
+            & input {
+                border-radius: 5px;
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: $primary;
+                padding: 20px;
+                width: 385px;
+                height: 57px;
+            }
+        }
+    }
+    &__title {
+        font-family: "Montserrat";
+        font-weight: 800;
+        font-size: 44px;
+        line-height: 54px;
+
+        color: $white;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37px;
+        color: $white;
+    }
+    &__btn {
+        cursor: pointer;
+        border: none;
+        background-color: #ffc633;
+        border-radius: 5px;
+        text-transform: uppercase;
+        padding: 18px 65px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: $primary;
+        transition: all 0.2s ease-in;
+        &:hover {
+            background-color: #997722;
+        }
+    }
+}

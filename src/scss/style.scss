@@ -8,7 +8,7 @@ $white: #fff;
 }
 
 body {
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
@@ -16,8 +16,16 @@ body {
 }
 
 .container {
-  max-width: 1050px;
+  max-width: 1780px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
 }
+
+@import 'header';
+@import 'hero';
+@import 'benefits';
+@import 'type';
+@import 'stats';
+@import 'сontact';
+@import 'footer';
