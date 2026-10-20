@@ -1,0 +1,6 @@
+.footer__inner { display: flex; align-items: center; justify-content: center; padding-block: clamp(35px, 4vw, 65px); }
+.footer__inner a { display: inline-flex; }
+.footer__inner img { width: 206px; height: auto; }
+.footer__copyright { background: #e6e5ea; padding: 14px var(--gutter); }
+.footer__copyright p { margin: 0; font-size: 13px; line-height: 1.6; text-align: center; font-weight: 400; }
+.footer__copyright span { color: #835e00; }

@@ -1,26 +1,25 @@
-<section class="hero">
-  <div class="container df">
-    <div>
-      <h1 class="hero-title upper">НЕДВИЖИМОСТЬ</h1>
-      <h2 class="hero-subtitle upper">в Объединенных Арабских Эмиратах</h2>
-      <hr class="m" />
-      <h1 class="hero-title">Лучшая инвестиция!</h1>
-      <p class="hero-subtitle">
-        Компания <span>Golden Property Soulution </span>предлагает подбор и
-        продажу инвестиционной недвижимости<br />
-        <span> В РАССРОЧКУ НА 3-5 ЛЕТ!</span>
-      </p>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container hero__grid">
+    <div class="hero__content">
+      <h1 class="hero-title" id="hero-title">НЕДВИЖИМОСТЬ</h1>
+      <p class="hero__region">в Объединенных Арабских Эмиратах</p>
+      <div class="hero__rule" aria-hidden="true"></div>
+      <p class="hero__highlight">Лучшая инвестиция!</p>
+      <p class="hero__description">Компания <strong>Golden Property Soulution</strong> предлагает подбор и продажу инвестиционной недвижимости <strong>В РАССРОЧКУ НА 3-5 ЛЕТ!</strong></p>
     </div>
-    <div>
-      <h1 class="hero__form-title upper">Получите</h1>
-      <h2 class="hero__form-subtitle upper">консультацию специалиста</h2>
-      <h2 class="hero__form-subtitle sub upper">По недвижимости в Дубае</h2>
-      <form>
-        <div>
-          <input type="name" placeholder="Введите имя" />
-          <input type="tel" placeholder="Введите телефон" />
+    <div class="hero__consultation">
+      <h2 class="hero__form-title">Получите</h2>
+      <p class="hero__form-subtitle">консультацию специалиста</p>
+      <p class="hero__form-location">По недвижимости в Дубае</p>
+      <form class="lead-form lead-form--hero" data-lead-form>
+        <div class="lead-form__fields">
+          <label class="visually-hidden" for="hero-name">Введите имя</label>
+          <input id="hero-name" name="name" type="text" autocomplete="name" placeholder="Введите имя" required maxlength="100">
+          <label class="visually-hidden" for="hero-phone">Введите телефон</label>
+          <input id="hero-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Введите телефон" required maxlength="40">
         </div>
-        <button>Получить консультацию</button>
+        <button class="button button--dark" type="submit">Получить консультацию</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
       </form>
     </div>
   </div>

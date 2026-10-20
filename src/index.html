@@ -1,18 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-  @@include('html/head.html', {
-    'title': 'GPS'
-  })
+  @@include('html/head.html')
   <body>
-    @@include('html/header.html', {})
-    @@include('html/hero.html', {})
-    <main>
-      @@include('html/benefits.html', {})
-      @@include('html/type.html', {})
-      @@include('html/stats.html', {})
-      @@include('html/contact.html', {})
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    @@include('html/header.html')
+    <main id="main">
+      @@include('html/hero.html')
+      @@include('html/benefits.html')
+      @@include('html/type.html')
+      @@include('html/stats.html')
+      @@include('html/contact.html')
     </main>
-    @@include('html/footer.html', {})
-    <script src="js/app.min.js"></script>
+    @@include('html/footer.html')
+    <script src="js/app.js" defer></script>
   </body>
 </html>
